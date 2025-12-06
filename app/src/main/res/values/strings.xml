@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Tic Tac Toe!</string>
+
+    <!-- Accessibility descriptions for game board cells -->
+    <string name="cell_position_top_left">Top left cell</string>
+    <string name="cell_position_top_center">Top center cell</string>
+    <string name="cell_position_top_right">Top right cell</string>
+    <string name="cell_position_middle_left">Middle left cell</string>
+    <string name="cell_position_center">Center cell</string>
+    <string name="cell_position_middle_right">Middle right cell</string>
+    <string name="cell_position_bottom_left">Bottom left cell</string>
+    <string name="cell_position_bottom_center">Bottom center cell</string>
+    <string name="cell_position_bottom_right">Bottom right cell</string>
+</resources>
