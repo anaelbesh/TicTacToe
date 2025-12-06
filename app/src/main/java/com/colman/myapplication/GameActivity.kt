@@ -76,12 +76,12 @@ class GameActivity : AppCompatActivity(), View.OnClickListener {
     private fun updateStatus() {
         val message = if (gameEnded) {
             if (checkForWin()) {
-                "Player ${if (playerX) "X" else "O"} wins!"
+                getString(if (playerX) R.string.player_x_wins else R.string.player_o_wins)
             } else {
-                "It's a draw!"
+                getString(R.string.draw)
             }
         } else {
-            "Player ${if (playerX) "X" else "O"}'''s turn"
+            getString(if (playerX) R.string.player_x_turn else R.string.player_o_turn)
         }
         statusTextView.text = message
     }
