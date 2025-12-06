@@ -1,6 +1,13 @@
 <resources>
     <string name="app_name">Tic Tac Toe!</string>
 
+    <!-- Game status messages -->
+    <string name="player_x_turn">Player X\'s turn</string>
+    <string name="player_o_turn">Player O\'s turn</string>
+    <string name="player_x_wins">Player X wins!</string>
+    <string name="player_o_wins">Player O wins!</string>
+    <string name="draw">It\'s a draw!</string>
+
     <!-- Accessibility descriptions for game board cells -->
     <string name="cell_position_top_left">Top left cell</string>
     <string name="cell_position_top_center">Top center cell</string>
