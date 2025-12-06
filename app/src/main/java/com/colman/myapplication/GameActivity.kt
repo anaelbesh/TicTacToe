@@ -78,7 +78,7 @@ class GameActivity : AppCompatActivity(), View.OnClickListener {
             if (checkForWin()) {
                 "Player ${if (playerX) "X" else "O"} wins!"
             } else {
-                "It'''s a draw!"
+                "It's a draw!"
             }
         } else {
             "Player ${if (playerX) "X" else "O"}'''s turn"
