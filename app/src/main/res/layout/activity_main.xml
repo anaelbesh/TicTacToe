@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E2C8CE"
+    android:background="#F5E6EA"
     tools:context=".MainActivity">
 
     <TextView
@@ -31,11 +31,11 @@
         android:layout_width="149dp"
         android:layout_height="69dp"
         android:layout_marginTop="88dp"
-        android:backgroundTint="#E482A4"
+        android:backgroundTint="@color/dark"
         android:fontFamily="sans-serif-black"
-        android:text="Start Game"
+        android:text="@string/start_game"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="#E91E63"
+        android:textColor="#FFFFFF"
         android:textSize="19sp"
         android:typeface="normal"
         app:layout_constraintBottom_toBottomOf="parent"

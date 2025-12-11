@@ -36,159 +36,186 @@
         app:layout_constraintVertical_bias="0.268"
         app:rowCount="3">
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button00"
-            android:tag="00"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_margin="4dp"
-            android:background="@drawable/cell_border"
+            android:backgroundTint="@color/light_pink"
             android:contentDescription="@string/cell_position_top_left"
+            android:tag="00"
             android:text=""
-            android:textColor="#C2185B"
-            android:textColorLink="#E91E63"
+            android:textColor="#FF69B4"
+            android:textColorLink="#FF69B4"
             android:textSize="48sp"
             android:textStyle="bold"
+            app:cornerRadius="8dp"
             app:layout_column="0"
             app:layout_columnWeight="1"
             app:layout_row="0"
-            app:layout_rowWeight="1" />
+            app:layout_rowWeight="1"
+            app:strokeColor="#C2185B"
+            app:strokeWidth="4dp" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button01"
-            android:tag="01"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_margin="4dp"
-            android:background="@drawable/cell_border"
+            android:backgroundTint="@color/light_pink"
             android:contentDescription="@string/cell_position_top_center"
+            android:tag="01"
             android:text=""
+            android:textColor="#FF69B4"
             android:textSize="48sp"
-            android:textColor="#C2185B"
             android:textStyle="bold"
+            app:cornerRadius="8dp"
             app:layout_column="1"
             app:layout_columnWeight="1"
             app:layout_row="0"
-            app:layout_rowWeight="1" />
+            app:layout_rowWeight="1"
+            app:strokeColor="#C2185B"
+            app:strokeWidth="4dp" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button02"
-            android:tag="02"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_margin="4dp"
-            android:background="@drawable/cell_border"
+            android:backgroundTint="@color/light_pink"
             android:contentDescription="@string/cell_position_top_right"
+            android:tag="02"
             android:text=""
+            android:textColor="#FF69B4"
             android:textSize="48sp"
-            android:textColor="#C2185B"
             android:textStyle="bold"
+            app:cornerRadius="8dp"
             app:layout_column="2"
             app:layout_columnWeight="1"
             app:layout_row="0"
-            app:layout_rowWeight="1" />
+            app:layout_rowWeight="1"
+            app:strokeColor="#C2185B"
+            app:strokeWidth="4dp" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button10"
-            android:tag="10"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_margin="4dp"
-            android:background="@drawable/cell_border"
+            android:backgroundTint="@color/light_pink"
             android:contentDescription="@string/cell_position_middle_left"
+            android:tag="10"
             android:text=""
+            android:textColor="#FF69B4"
             android:textSize="48sp"
-            android:textColor="#C2185B"
             android:textStyle="bold"
+            app:cornerRadius="8dp"
             app:layout_column="0"
             app:layout_columnWeight="1"
             app:layout_row="1"
-            app:layout_rowWeight="1" />
+            app:layout_rowWeight="1"
+            app:strokeColor="#C2185B"
+            app:strokeWidth="4dp" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button11"
-            android:tag="11"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_margin="4dp"
-            android:background="@drawable/cell_border"
+            android:backgroundTint="@color/light_pink"
             android:contentDescription="@string/cell_position_center"
+            android:tag="11"
             android:text=""
+            android:textColor="#FF69B4"
             android:textSize="48sp"
-            android:textColor="#C2185B"
             android:textStyle="bold"
+            app:cornerRadius="8dp"
             app:layout_column="1"
             app:layout_columnWeight="1"
             app:layout_row="1"
-            app:layout_rowWeight="1" />
+            app:layout_rowWeight="1"
+            app:strokeColor="#C2185B"
+            app:strokeWidth="4dp" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button12"
-            android:tag="12"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_margin="4dp"
-            android:background="@drawable/cell_border"
+            android:backgroundTint="@color/light_pink"
             android:contentDescription="@string/cell_position_middle_right"
+            android:tag="12"
             android:text=""
+            android:textColor="#FF69B4"
             android:textSize="48sp"
-            android:textColor="#C2185B"
             android:textStyle="bold"
+            app:cornerRadius="8dp"
             app:layout_column="2"
             app:layout_columnWeight="1"
             app:layout_row="1"
-            app:layout_rowWeight="1" />
+            app:layout_rowWeight="1"
+            app:strokeColor="#C2185B"
+            app:strokeWidth="4dp" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button20"
-            android:tag="20"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_margin="4dp"
-            android:background="@drawable/cell_border"
+            android:backgroundTint="@color/light_pink"
             android:contentDescription="@string/cell_position_bottom_left"
+            android:tag="20"
             android:text=""
+            android:textColor="#FF69B4"
             android:textSize="48sp"
-            android:textColor="#C2185B"
             android:textStyle="bold"
+            app:cornerRadius="8dp"
             app:layout_column="0"
             app:layout_columnWeight="1"
             app:layout_row="2"
-            app:layout_rowWeight="1" />
+            app:layout_rowWeight="1"
+            app:strokeColor="#C2185B"
+            app:strokeWidth="4dp" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button21"
-            android:tag="21"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_margin="4dp"
-            android:background="@drawable/cell_border"
+            android:backgroundTint="@color/light_pink"
             android:contentDescription="@string/cell_position_bottom_center"
+            android:tag="21"
             android:text=""
+            android:textColor="#FF69B4"
             android:textSize="48sp"
-            android:textColor="#C2185B"
             android:textStyle="bold"
+            app:cornerRadius="8dp"
             app:layout_column="1"
             app:layout_columnWeight="1"
             app:layout_row="2"
-            app:layout_rowWeight="1" />
+            app:layout_rowWeight="1"
+            app:strokeColor="#C2185B"
+            app:strokeWidth="4dp" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button22"
-            android:tag="22"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_margin="4dp"
-            android:background="@drawable/cell_border"
+            android:backgroundTint="@color/light_pink"
             android:contentDescription="@string/cell_position_bottom_right"
+            android:tag="22"
             android:text=""
+            android:textColor="#FF69B4"
             android:textSize="48sp"
-            android:textColor="#C2185B"
             android:textStyle="bold"
+            app:cornerRadius="8dp"
             app:layout_column="2"
             app:layout_columnWeight="1"
             app:layout_row="2"
-            app:layout_rowWeight="1" />
+            app:layout_rowWeight="1"
+            app:strokeColor="#C2185B"
+            app:strokeWidth="4dp" />
 
     </androidx.gridlayout.widget.GridLayout>
 
@@ -197,10 +224,27 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
+        android:fontFamily="sans-serif-black"
         android:text="@string/player_x_turn"
+        android:textColor="@color/dark"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/gameBoard" />
+
+    <Button
+        android:id="@+id/playAgainButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/dark"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/play_again"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/statusTextView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

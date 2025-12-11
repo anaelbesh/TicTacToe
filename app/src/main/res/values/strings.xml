@@ -7,6 +7,8 @@
     <string name="player_x_wins">Player X wins!</string>
     <string name="player_o_wins">Player O wins!</string>
     <string name="draw">It\'s a draw!</string>
+    <string name="start_game">Start Game</string>
+    <string name="play_again">Play Again</string>
 
     <!-- Accessibility descriptions for game board cells -->
     <string name="cell_position_top_left">Top left cell</string>
