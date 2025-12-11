@@ -14,6 +14,8 @@ class GameActivity : AppCompatActivity(), View.OnClickListener {
     private var turnCount = 0
     private var gameEnded = false
     private lateinit var statusTextView: TextView
+    private lateinit var playAgainButton: Button
+    private lateinit var gameResetHandler: GameResetHandler
 
     /**
      * Called when the activity is first created.
@@ -24,6 +26,7 @@ class GameActivity : AppCompatActivity(), View.OnClickListener {
         setContentView(R.layout.game_activity)
 
         statusTextView = findViewById(R.id.statusTextView)
+        playAgainButton = findViewById(R.id.playAgainButton)
 
         val gridLayout = findViewById<GridLayout>(R.id.gameBoard)
         board = Array(3) { r ->
@@ -33,6 +36,10 @@ class GameActivity : AppCompatActivity(), View.OnClickListener {
                 button
             }
         }
+
+        // Initialize the reset handler
+        gameResetHandler = GameResetHandler(this, board, playAgainButton, statusTextView)
+
         updateStatus()
     }
 
@@ -60,9 +67,11 @@ class GameActivity : AppCompatActivity(), View.OnClickListener {
         if (checkForWin()) {
             gameEnded = true
             updateStatus()
+            gameResetHandler.showPlayAgainButton()
         } else if (turnCount == 9) {
             gameEnded = true
             updateStatus()
+            gameResetHandler.showPlayAgainButton()
         } else {
             playerX = !playerX
             updateStatus()
@@ -120,5 +129,14 @@ class GameActivity : AppCompatActivity(), View.OnClickListener {
         }
 
         return false
+    }
+
+    /**
+     * Reset game state variables (called by GameResetHandler)
+     */
+    fun resetGameState() {
+        playerX = true
+        turnCount = 0
+        gameEnded = false
     }
 }
